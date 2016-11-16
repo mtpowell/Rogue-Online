@@ -1,0 +1,25 @@
+html, body {
+	background-color: #000;
+	color: #FFF;
+}
+
+#map {
+	margin: 0 auto;
+	width: 768px;
+	height: 512px;
+	border: 1px solid #000;
+	background-color: #38542d;
+	position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-384px; /* width / -2 */
+    margin-top:-256px; 
+}
+
+.tile { 
+	float: left;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+}
